@@ -6,8 +6,8 @@ This program is a simple syntax checker implemented using Lex (Flex) for lexical
 ## Compilation:
 
 ### Compile the program using a C compiler. For example:
-```flex syntax_checker.l
-gcc lex.yy.c -o syntax_checker -ll
+`flex syntax_checker.l`
+`gcc lex.yy.c -o syntax_checker -ll`
 
 # Execution:
 ## Run the compiled program:
