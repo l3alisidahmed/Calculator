@@ -7,13 +7,13 @@ This program is a simple syntax checker implemented using Lex (Flex) for lexical
 Compile the program using a C compiler.
 ### For example:
 ```
-flex syntax_checker.l
-gcc lex.yy.c -o syntax_checker -ll
+flex Calculator.l
+gcc lex.yy.c -o compiler
 ```
 # Execution:
 ## Run the compiled program:
 
-./syntax_checker
+./compiler.exe
 The program will prompt you to enter the name of the file to be checked.
 
 # Input File Format
